@@ -24,7 +24,7 @@ if not neuroDAC_info:
 
 
 # Make data to be streamed
-fs = 44100. # Hz
+fs = 48000. # Hz
 duration = 10. # sec
 frame_size = 8192. # samples/buffer frame
 t = numpy.arange(0, duration, 1/fs)
