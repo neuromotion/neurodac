@@ -3,14 +3,14 @@
 % UDAC 8 ASIO drivers
 
 % Setup parameters
-fs = 44100;
+fs = 48000;
 streamLength = 30; % sec
 t = 0:1/fs:streamLength;
 % frameSize = 1; %sec
 sampsPerFrame = 8192;
 
 % Bank of frequencies for each channel
-freqs = [10, 10, 10, 10, 10, 10, 10, 1]; %[1, 10, 100, 500, 1000, 2000, 7000, 20000];
+freqs = [1, 10, 25, 50, 100, 150, 200, 250];
 amps = [1, 1, 1, 1, 1, 1, 1, 1];
 
 % Initialize variables

@@ -28,7 +28,7 @@ if nargin < 5 || isempty(sampsPerFrame)
 end
 
 if nargin < 4 || isempty(streamSampRate)
-    streamSampRate = 44100;
+    streamSampRate = 48000;
 end
 
 if nargin < 3 || isempty(dataSampRate)
