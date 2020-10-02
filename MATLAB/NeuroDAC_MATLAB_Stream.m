@@ -1,6 +1,10 @@
 % Code for taking processed neural data, resampling it to be the right
 % sample rate for streaming to the U-DAC 8 device, and then streaming the
 % data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Last Updated: 10/02/2020
+% Author: Marc P. Powell
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function status = streamToDAC(processedData, chans, dataSampRate, streamSampRate, sampsPerFrame)
 % STATUS: True if data stream successfully completes

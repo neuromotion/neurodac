@@ -1,16 +1,19 @@
 % Dependencies
 % MATLAB Audio Systems Toolbox
 % UDAC 8 ASIO drivers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Last Updated: 10/02/2020
+% Author: Marc P. Powell
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Setup parameters
-fs = 48000;
+fs = 192e3;
 streamLength = 30; % sec
 t = 0:1/fs:streamLength;
-% frameSize = 1; %sec
 sampsPerFrame = 8192;
 
 % Bank of frequencies for each channel
-freqs = [1, 10, 25, 50, 100, 150, 200, 250];
+freqs = [1, 100, 25, 50, 100, 150, 200, 250];
 amps = [1, 1, 1, 1, 1, 1, 1, 1];
 
 % Initialize variables

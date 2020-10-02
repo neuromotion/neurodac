@@ -8,6 +8,8 @@ search for this toolbox and install it. This is not a standard toolbox so you ma
 insitution to make sure you have access to it (I had to get Brown to purchase it). If you cannot get access 
 the Python code works just as well.
 # Description of files
+## eagle-schematic
+Contains the eagle schematics for the NeuroDAC signal conditioning PCB.
 ## NeuroDAC_MATLAB_Sine.m
 This is a script to play 30 seconds of a sine wave a different frequencies on each channel.
 This is helpful for testing the system and making sure that you have all the software installed properly.

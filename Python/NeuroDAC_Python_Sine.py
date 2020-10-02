@@ -1,3 +1,9 @@
+################################
+# Plays sine waves out of all channels with 10 Hz frequency
+# Last Updated: 10/02/2020
+# Author: Marc P. Powell
+################################
+
 import sounddevice as sd
 import numpy
 from math import pi
@@ -24,7 +30,7 @@ if not neuroDAC_info:
 
 
 # Make data to be streamed
-fs = 48000. # Hz
+fs = 192000. # Hz
 duration = 10. # sec
 frame_size = 8192. # samples/buffer frame
 t = numpy.arange(0, duration, 1/fs)
