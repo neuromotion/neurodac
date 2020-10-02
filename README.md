@@ -23,3 +23,6 @@ A function for playing 8 channels of data out of NeuroDAC simultaneously
 Contains example code for using the NeuroDAC with Python
 ### playSine.py
 This is a Python file that works similarly to the MATLAB_Sine script described above. It plays 8 sine waves each at 10 Hz out of all channels of the NeuroDAC. Use this to test your system.
+# DOI
+This is the digital identifier for this repository published using Zenodo
+[![DOI](https://zenodo.org/badge/220079207.svg)](https://zenodo.org/badge/latestdoi/220079207)
