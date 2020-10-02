@@ -10,12 +10,15 @@ the Python code works just as well.
 # Description of files
 ## eagle-schematic
 Contains the eagle schematics for the NeuroDAC signal conditioning PCB.
-## NeuroDAC_MATLAB_Sine.m
+## MATLAB/
+Contains example code for using NeuroDAC with MATLAB
+### playSine.m
 This is a script to play 30 seconds of a sine wave a different frequencies on each channel.
 This is helpful for testing the system and making sure that you have all the software installed properly.
-## NeuroDAC_MATLAB_Stream.m
-This is designed to stream pre-recorded data out through the device. It has been written for Blackrock NS5 files
-and scales the output values according to that. You will need to modify the scaling values for your system.
+### playDAC.m
+A function for playing a vector of data using a single channel of NeuroDAC
+### playDACSimul.m
+A function for playing 8 channels of data out of NeuroDAC simultaneously
 ## NeuroDAC_Python_Sine.py
 This is a Python file that works similarly to the MATLAB_Sine script described above. Use this to test your system.
 # Coming Soon
