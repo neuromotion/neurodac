@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/220079207.svg)](https://zenodo.org/badge/latestdoi/220079207)
+
 # Installation
 ## Python
 The python code relies on the "sounddevice" package. Install this using:
